@@ -1,3 +1,3 @@
-import { createContext } from "react";
+import { createContext, useContext, useState } from "react";
 
-export const DataContext = createContext("data");
+export const DataContext = createContext();
